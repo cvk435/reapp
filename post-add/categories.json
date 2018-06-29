@@ -1,0 +1,149 @@
+{
+    "posts": [
+       {
+           "id":"1",
+           "name":"Properties",
+           "imagename":"imag1.jpg",
+           "category" :[
+            {"name":"For Sale",
+                "subCategory":["apartments","Houses & Villas","Builder Floors","Land & Plots","Shop & Offers","Farm Houses"]},
+            {"name":"For Rend",
+                "subCategory":["apartments","Houses & Villas","Builder Floors","PG & Roommates","Shops & Offices","Land & Plots","Guest Houes"]},
+            {"name":"New Projects", 
+                "subCategory":["apartments","Houses & Vilals","Builder Floors","Shops & Offices","Land & Plots","Farm Houses"]}
+        ]
+       },
+       {
+        "id":"2",
+        "name":"Cars",
+        "imagename":"imag2.jpg",
+        "category" :[
+            {"name":"Cars",
+                "subCategory":["Maruti Suzuki","Hyundai","Tata","Mahindara","Toyota","Honda","Chevrolet","Ford","Skoda","VolksWagan","Fiat","Nissan","Renault","Audi","BMW"]},
+            {"name":"Commerical Vehicles"},
+            {"name":"Other Vehicles"},
+            {"name":"Spare Parts"}
+        ]
+        },
+        {
+            "id":"3",
+            "name":"Electronics &  Applicances",
+            "imagename":"imag3.jpg",
+            "category" :[
+                {"name":"Computers & Laptops"},
+                {"name":"TVs, Video - Audio"},
+                {"name":"Hard Disks, Printers & Monitors"},
+                {"name":"ACs"},
+                {"name":"Washing Machines"},
+                {"name":"Frideges"},
+                {"name":"Computer Accessories"},
+                {"name":"Cameras & Lenses"},
+                {"name":"Kitchen & Other Applicances"},
+                {"name":"Games & Entertainment"}
+            ]
+        },
+        {
+            "id":"4",
+            "name":"Furniture",
+            "imagename":"imag4.jpg",
+            "category" :[
+                {"name":"Sofa & Dining"},
+                {"name":"Beds& Wardrobes"},
+                {"name":"Home Decor & Garden"},
+                {"name":"Other Household Items"},
+                {"name":"Kids Furniture"}
+            ]
+        },
+        {
+            "id":"5",
+            "name":"Jobs",
+            "imagename":"imag5.jpg",
+            "category" :[
+                {"name":"Data entry & Back Office"},
+                {"name":"BPO & Telecaller"},
+                {"name":"Operator & Techninican"},
+                {"name":"Sales & Marketing"},
+                {"name":"Cook"},
+                {"name":"Driver"},
+                {"name":"Hotel & Travel Executive"},
+                {"name":"IT Engineer & Developer"},
+                {"name":"Designer"},
+                {"name":"Office Assistant"},
+                {"name":"Delivery & Collection"},
+                {"name":"Accountant"},
+                {"name":"Teacher"},
+                {"name":"Other"}
+            ]
+        },
+        {
+            "id":"6",
+            "name":"Mobiles",
+            "imagename":"imag6.jpg",
+            "category" :[
+                {"name":"Mobiles",
+                    "subCategory":["Phones","Samsung","Iphone","Nokia","Sony","MI","HTC","Lenovo","Gionee","Motorola","Oppo","Vivo","Intex","Lava","LG","Asus","BlackBerry","Karbon"]},
+                {"name":"Tablets",
+                    "subCategory":["Samsung","Ipas","Others"]},
+                {"name":"Acessories",
+                    "subCategory":["Mobiles","Tables"]}                    
+            ]
+        },
+        {
+            "id":"7",
+            "name":"Bikes",
+            "imagename":"imag7.jpg",
+            "category" :[
+                {"name":"Motorcycles",
+                    "subCategory":["Bajaj","Hero Honda","Yamaha","Royal Enfield","Honda","Hero","TVS","Suzuki","KTM"]},
+                {"name":"Scooters",
+                    "subCategory":["Hona","TVS","Hero","Suzuki","Bajaj","Mahindra"]},
+                {"name":"Bicycles",
+                    "subCategory":["Hero","Hercules"]}                    
+            ]
+        },
+        {
+            "id":"8",
+            "name":"Books, Sports & Hobbies",
+            "imagename":"imag87.jpg",
+            "category" :[
+                {"name":"Books"},
+                {"name":"Musical Instruments"},
+                {"name":"Sports Equipments"},
+                {"name":"Gym & Fitness"}
+            ]
+        },
+        {
+            "id":"9",
+            "name":"Fashion",
+            "imagename":"imag9.jpg",
+            "category" :[
+                {"name":"Men"},
+                {"name":"Women"},
+                {"name":"Kids"}
+            ]
+        },
+        {
+            "id":"10",
+            "name":"Pets",
+            "imagename":"imag10.jpg",
+            "category" :[
+                {"name":"Fishes & Aquarium"},
+                {"name":"Dogs"},
+                {"name":"Other Pets"},
+                {"name":"Pet food & Acessories"}
+            ]
+        },
+        {
+            "id":"1",
+            "name":"Services",
+            "imagename":"imag11.jpg",
+            "category" :[
+                {"name":"Drivers & Taxi"},
+                {"name":"Education & Classes"},
+                {"name":"Electronic & Computer"},
+                {"name":"Health & Beauty"}
+            ]
+        }
+      ]
+      
+}

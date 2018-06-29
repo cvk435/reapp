@@ -1,0 +1,434 @@
+{
+    "select": [
+        {
+            "id": "1",
+            "name": "Properties",
+            "imageName": "properties.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "For Sale",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Apartments",
+                        "Houses & Villas",
+                        "Builder Floors",
+                        "Land & Plots",
+                        "Shops & Offices",
+                        "FarmHouses"
+                    ]
+                },
+                {
+                    "name": "For Rent",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Apartments",
+                        "Houses & Villas",
+                        "BuilderFloors",
+                        "PG & Roomates",
+                        "Shops & Offices",
+                        "Land & Plots",
+                        "GuestHouses"
+                    ]
+                },
+                {
+                    "name": "New Projects",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Apartments",
+                        "Houses & Villas",
+                        "BuilderFloors",
+                        "Shops & Offices",
+                        "Land & Plots",
+                        "FarmHouses"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Cars",
+            "imageName": "cars.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Cars",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Maruti Suzuki",
+                        "Hyundai",
+                        "Tata",
+                        "Mahindra",
+                        "Toyota",
+                        "Honda",
+                        "Chevrolet",
+                        "Ford",
+                        "Skoda",
+                        "Volkswagen",
+                        "Fiat",
+                        "Nissan",
+                        "Renault",
+                        "Mitsubishi",
+                        "Mercedes-Benz",
+                        "Audi",
+                        "Mahindra Renault",
+                        "BMW",
+                        "Hindustan Motors",
+                        "Other Brands"
+                    ]
+                },
+                {
+                    "name": "Commercial Vehicles",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Other Vehicles",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Spare Parts",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Electronics & Appliances",
+            "imageName": "electronics.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Computers & Laptops",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "TVs",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Video - Audio Hard Disks",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Printers & Monitors",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "ACs",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Washing Machines",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Fridges",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Computer Accessories",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Cameras & Lenses",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Kitchen & Other Appliances",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Games & Entertainment",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Furniture",
+            "imageName": "furniture.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Sofa & Dining",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Beds & Wardrobes",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Home Decor & Garden",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Other Household Items",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Kids Furniture",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Hindustan Motors",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Other Brands",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Jobs",
+            "imageName": "jobs.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Data entry & Back office",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "BPO & Telecaller",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Operator & Technician",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Sales & Marketing",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Cook",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Driver",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Hotel & Travel Executive",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "IT Engineer & Developer",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Designer",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Office Assistant",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Receptionist & Front office",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Delivery & Collection",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Mobiles",
+            "imageName": "mobiles.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Mobile Phones",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Samsung",
+                        "iPhone",
+                        "Micromax",
+                        "Nokia",
+                        "Sony",
+                        "Mi",
+                        "HTC",
+                        "Lenovo",
+                        "Gionee",
+                        "Motorola",
+                        "Oppo",
+                        "Vivo",
+                        "Intex",
+                        "Lava",
+                        "LG",
+                        "Asus",
+                        "BlackBerry",
+                        "Karbonn",
+                        "Other Mobiles"
+                    ]
+                },
+                {
+                    "name": "Tablets",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Samsung",
+                        "iPads",
+                        "Other Tablets"
+                    ]
+                },
+                {
+                    "name": "Accessories",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Mobiles",
+                        "Tablets"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Bikes",
+            "imageName": "bikes.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Motorcycles",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Bajaj",
+                        "Hero Honda",
+                        "Yamaha",
+                        "Royal Enfield",
+                        "Honda",
+                        "Hero",
+                        "TVS",
+                        "Suzuki",
+                        "KTM",
+                        "Other Brands"
+                    ]
+                },
+                {
+                    "name": "Scooters",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Honda",
+                        "TVS",
+                        "Hero",
+                        "Suzuki",
+                        "Bajaj",
+                        "Mahindra",
+                        "Other Brands"
+                    ]
+                },
+                {
+                    "name": "Bicycles",
+                    "subcategoryActive": "1",
+                    "subcategory": [
+                        "Hero",
+                        "Hercules",
+                        "Other Brands"
+                    ]
+                },
+                {
+                    "name": "Spare Parts"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Books, Sports & Hobbies",
+            "imageName": "hobbies.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Motorcycles",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Sports Equipment",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Gym & Fitness",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Other Hobbies",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Fashion",
+            "imageName": "fashion.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Men",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Women",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Kids",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Pets",
+            "imageName": "petts.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Fishes & Aquarium",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Dogs",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Other Pets",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Pet Food & Accessories",
+                    "subcategoryActive": "0"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Services",
+            "imageName": "services.png",
+            "categoryActive": "1",
+            "category": [
+                {
+                    "name": "Drivers & Taxi",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Education & Classes",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Electronics & Computer",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Health & Beauty",
+                    "subcategoryActive": "0"
+                },
+                {
+                    "name": "Other Services",
+                    "subcategoryActive": "0"
+                }
+            ]
+        }
+    ]
+}

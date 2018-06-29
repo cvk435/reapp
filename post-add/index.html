@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post Add</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+	
+	<style>
+body{
+      font-family: 'Montserrat', sans-serif;
+    }
+ul{
+      margin: 0px;
+      padding: 0px;
+
+}
+		.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+	display: flex; 
+  padding: 0.5em;
+	width: 100%;
+}
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width:140px;
+    height: 120px;
+  }
+
+  .list-content {
+    width: 130px;
+    height: 100px;
+  }
+}
+.list-content {
+	background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  justify-content: space-between;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFF;
+  text-align: center;
+}
+
+.list-content:hover {
+border: 2px solid #007bff;
+border-radius: 4px;
+}
+
+.list-content img{
+  width:52px;
+}
+
+.list-content h2 {
+	  font-size: 12px;
+    padding-top: 8px;
+    font-weight: 400;
+}
+
+.text-view{
+  
+}
+
+.text-view h1{
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #cbcbcb;
+  padding-bottom:10px;
+}
+
+.category-list ul li{
+  display:block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  color: #2965be;
+}
+
+.category-list ul li:hover{
+  color: #333
+}
+
+	</style>
+	
+</head>
+<body>
+
+    <div class="container">
+		<div class="jumbotron">
+    <h1>Post Ad</h1>      
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Select Category</button>
+  </div>
+
+	</div>
+	
+	
+	<!--modal-->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Select category</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <ul class="list">
+          <li class="list-item">
+            <div class="list-content">
+                <img src="properties.png" alt="" />
+              <h2>Properties</h2>
+            </div>
+          </li>
+
+          <li class="list-item">
+              <div class="list-content">
+                  <img src="cars.png" alt="" />
+                <h2>Cars</h2>
+              </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-content">
+                    <img src="electronics.png" alt="" />
+                  <h2>Electroncs & Appliances</h2>
+                </div>
+              </li>
+
+              <li class="list-item">
+                  <div class="list-content">
+                      <img src="furniture.png" alt="" />
+                    <h2>Furniture</h2>
+                  </div>
+                </li>
+
+                <li class="list-item">
+                    <div class="list-content">
+                        <img src="jobs.png" alt="" />
+                      <h2>Jobs</h2>
+                    </div>
+                  </li>
+
+                  <li class="list-item">
+                      <div class="list-content">
+                          <img src="mobiles.png" alt="" />
+                        <h2>Mobiles</h2>
+                      </div>
+                    </li>
+
+                    <li class="list-item">
+                        <div class="list-content">
+                            <img src="bikes.png" alt="" />
+                          <h2>Bikes</h2>
+                        </div>
+                      </li>
+
+                      <li class="list-item">
+                          <div class="list-content">
+                              <img src="hobbies.png" alt="" />
+                            <h2>Books & Sports</h2>
+                          </div>
+                        </li>
+
+                        <li class="list-item">
+                            <div class="list-content">
+                                <img src="fashion.png" alt="" />
+                              <h2>Fashion</h2>
+                            </div>
+                          </li>
+
+                          <li class="list-item">
+                              <div class="list-content">
+                                  <img src="petts.png" alt="" />
+                                <h2>Pets</h2>
+                              </div>
+                            </li>
+                            <li class="list-item">
+                                <div class="list-content">
+                                    <img src="services.png" alt="" />
+                                  <h2>Services</h2>
+                                </div>
+                              </li>
+                              <li class="list-item">
+                                  <div class="list-content">
+                                      <img src="kids.png" alt="" />
+                                    <h2>Kids</h2>
+                                  </div>
+                                </li>
+           
+        </ul>
+
+
+        <!--text view-->
+        <div class="d-flex" style="min-height:300px; display: none;">
+            <div class="p-3 flex-fill bg-light">
+              <div class="text-view">
+                  <h1>Properties</h1>
+                  <div class="category-list">
+                    <ul>
+                      <li>Properties</li>
+                      <li>Cars</li>
+                      <li>Electronics & Appliances</li>
+                      <li>Furniture</li>
+                      <li>Jobs</li>
+                      <li>Mobiles</li>
+                      <li>Bikes</li>
+                      <li>Books, Soports & Hobbies</li>
+                      <li>Fashion</li>
+                      <li>Pets</li>
+                      <li>Services</li>
+                      <li>Kids</li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+
+            <div class="p-3 flex-fill">
+                <div class="text-view">
+                    <h1>Base Header</h1>
+                    <div class="category-list">
+                        <ul>
+                          <li>Properties</li>
+                          <li>Cars</li>
+                          <li>Electronics & Appliances</li>
+                          <li>Furniture</li>
+                          <li>Jobs</li>
+                          <li>Mobiles</li>
+                          <li>Bikes</li>
+                          <li>Books, Soports & Hobbies</li>
+                          <li>Fashion</li>
+                          <li>Pets</li>
+                          <li>Services</li>
+                          <li>Kids</li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+
+              <div class="p-3 flex-fill">
+                  <div class="text-view">
+                      <h1>Base Header</h1>
+                      <div class="category-list">
+                          <ul>
+                            <li>Properties</li>
+                            <li>Cars</li>
+                            <li>Electronics & Appliances</li>
+                            <li>Furniture</li>
+                            <li>Jobs</li>
+                            <li>Mobiles</li>
+                            <li>Bikes</li>
+                            <li>Books, Soports & Hobbies</li>
+                            <li>Fashion</li>
+                            <li>Pets</li>
+                            <li>Services</li>
+                            <li>Kids</li>
+                          </ul>
+                        </div>
+                  </div>
+                </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>    
+</body>
+</html>
